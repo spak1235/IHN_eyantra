@@ -1,5 +1,5 @@
 Analysis & Elaboration report for t1a_fs_pwm
-Tue Sep 30 00:18:30 2025
+Tue Sep 30 00:33:12 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Tue Sep 30 00:18:30 2025       ;
+; Analysis & Elaboration Status      ; Successful - Tue Sep 30 00:33:12 2025       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1a_fs_pwm                                  ;
 ; Top-level Entity Name              ; t1a_fs_pwm_bdf                              ;
@@ -162,24 +162,24 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Sep 30 00:18:26 2025
+    Info: Processing started: Tue Sep 30 00:33:08 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1a_fs_pwm -c t1a_fs_pwm --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file code/t1a_fs_pwm_bdf.v
-    Info (12023): Found entity 1: t1a_fs_pwm_bdf File: /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 20
+    Info (12023): Found entity 1: t1a_fs_pwm_bdf File: /home/sohan/Documents/Grindelwald/IHN_eyantra/mb_1029_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 20
 Info (12021): Found 1 design units, including 1 entities, in source file code/t1a_fs_pwm.bdf
     Info (12023): Found entity 1: t1a_fs_pwm
 Info (12021): Found 1 design units, including 1 entities, in source file code/pwm_generator.v
-    Info (12023): Found entity 1: pwm_generator File: /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v Line: 2
+    Info (12023): Found entity 1: pwm_generator File: /home/sohan/Documents/Grindelwald/IHN_eyantra/mb_1029_task1a/t1a_fs_pwm/code/pwm_generator.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file code/frequency_scaling.v
-    Info (12023): Found entity 1: frequency_scaling File: /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v Line: 1
+    Info (12023): Found entity 1: frequency_scaling File: /home/sohan/Documents/Grindelwald/IHN_eyantra/mb_1029_task1a/t1a_fs_pwm/code/frequency_scaling.v Line: 1
 Info (12127): Elaborating entity "t1a_fs_pwm_bdf" for the top level hierarchy
-Info (12128): Elaborating entity "frequency_scaling" for hierarchy "frequency_scaling:b2v_inst" File: /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 44
-Info (12128): Elaborating entity "pwm_generator" for hierarchy "pwm_generator:b2v_inst1" File: /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 51
+Info (12128): Elaborating entity "frequency_scaling" for hierarchy "frequency_scaling:b2v_inst" File: /home/sohan/Documents/Grindelwald/IHN_eyantra/mb_1029_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 44
+Info (12128): Elaborating entity "pwm_generator" for hierarchy "pwm_generator:b2v_inst1" File: /home/sohan/Documents/Grindelwald/IHN_eyantra/mb_1029_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v Line: 51
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 662 megabytes
-    Info: Processing ended: Tue Sep 30 00:18:30 2025
+    Info: Processing ended: Tue Sep 30 00:33:12 2025
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:14
 

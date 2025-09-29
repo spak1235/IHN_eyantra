@@ -20,24 +20,19 @@ always@(posedge clk_3125KHz) begin
 		pwm_signal <= 1'b1;
 	end
 	
+	if (dummy_clk == 4'b1111) begin
+		dummy_clk <= 0;
+	end
+	else begin
+		dummy_clk <= dummy_clk + 1'b1;
+	end
+	
 	if (dummy_clk > 4'b0111) begin
 		clk_195KHz <= 1'b0;
-		if (dummy_clk == 4'b1111) begin
-			dummy_clk <= 0;
-		end
-		else begin
-			dummy_clk <= dummy_clk + 1'b1;
-		end
 	end
 	
 	else begin
 		clk_195KHz <= 1'b1;
-		if (dummy_clk == 4'b1111) begin
-			dummy_clk <= 0;
-		end
-		else begin
-			dummy_clk <= dummy_clk + 1'b1;
-		end
 	end
 end
 

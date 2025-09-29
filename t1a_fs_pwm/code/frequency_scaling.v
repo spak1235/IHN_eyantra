@@ -11,23 +11,17 @@ end
 reg [3:0] dummy_clk = 4'b0000;
 
 always@(posedge clk_50M) begin
+	if (dummy_clk == 4'b1111) begin
+		dummy_clk <= 0;
+	end
+	else begin
+		dummy_clk <= dummy_clk + 1'b1;
+	end
 	if (dummy_clk > 4'b0111) begin
 		clk_3125KHz <= 1'b0;
-		if (dummy_clk == 4'b1111) begin
-			dummy_clk <= 0;
-		end
-		else begin
-			dummy_clk <= dummy_clk + 1'b1;
-		end
-	end	
+	end
 	else begin
 		clk_3125KHz <= 1'b1;
-		if (dummy_clk == 4'b1111) begin
-			dummy_clk <= 0;
-		end
-		else begin
-			dummy_clk <= dummy_clk + 1'b1;
-		end
 	end
 end
 

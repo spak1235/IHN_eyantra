@@ -1,5 +1,5 @@
 Flow report for t1a_fs_pwm
-Tue Sep 30 00:18:30 2025
+Tue Sep 30 00:33:12 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Sep 30 00:18:30 2025       ;
+; Flow Status                        ; Successful - Tue Sep 30 00:33:12 2025       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1a_fs_pwm                                  ;
 ; Top-level Entity Name              ; t1a_fs_pwm_bdf                              ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/30/2025 00:18:26 ;
+; Start date & time ; 09/30/2025 00:33:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; t1a_fs_pwm          ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+----------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name    ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+----------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 275692015057249.175917170606495        ; --            ; --             ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 275692015057249.175917258807123        ; --            ; --             ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; tb                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --             ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --             ; eda_board_design_boundary_scan    ;

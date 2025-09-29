@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 d/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/simulation/modelsim
 vfrequency_scaling
-Z1 !s110 1759171712
+Z1 !s110 1759172459
 !i10b 1
-!s100 g7cC<S=aRfhQk]aaEiGc>3
+!s100 Tki=46HHce_>QJR7aie6K0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I`FCdSddMlbNb5OMZ00IF10
+I[^>PlUk@aecEW>TA`4GW:2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1759171584
+w1759172425
 8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v
 F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v
 !i122 2
-L0 1 36
+L0 1 30
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1759171712.000000
+Z5 !s108 1759172459.000000
 !s107 /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code|/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v|
 !i113 1
@@ -36,16 +36,16 @@ Z8 tCvgOpt 0
 vpwm_generator
 R1
 !i10b 1
-!s100 9JbSMW3SFT8hJJ5mH=c0?2
+!s100 EkK:0>ij1RG21z7BZ<X;Z1
 R2
-I[DYaSOC0l;LIQ]iMR?N7V0
+IP=PZ7^LL:mCR6KmWb]@Pa0
 R3
 R0
-w1759171700
+w1759172444
 8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v
 F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v
 !i122 1
-L0 2 45
+L0 2 40
 R4
 r1
 !s85 0
