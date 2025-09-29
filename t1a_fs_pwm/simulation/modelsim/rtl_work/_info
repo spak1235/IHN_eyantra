@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/simulation/modelsim
+vfrequency_scaling
+Z1 !s110 1759172459
+!i10b 1
+!s100 Tki=46HHce_>QJR7aie6K0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[^>PlUk@aecEW>TA`4GW:2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1759172425
+8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v
+F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v
+!i122 2
+L0 1 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1759172459.000000
+!s107 /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code|/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/frequency_scaling.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code
+Z8 tCvgOpt 0
+vpwm_generator
+R1
+!i10b 1
+!s100 EkK:0>ij1RG21z7BZ<X;Z1
+R2
+IP=PZ7^LL:mCR6KmWb]@Pa0
+R3
+R0
+w1759172444
+8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v
+F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v
+!i122 1
+L0 2 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code|/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/pwm_generator.v|
+!i113 1
+R6
+R7
+R8
+vt1a_fs_pwm_bdf
+R1
+!i10b 1
+!s100 QmYW6@Qcm;YRX0Ih`S<Jl3
+R2
+IUijd`i0ZCd:9;IV@OTa^n2
+R3
+R0
+w1759170650
+8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v
+F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v
+!i122 0
+L0 20 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code|/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v|
+!i113 1
+R6
+R7
+R8
+vtb
+R1
+!i10b 1
+!s100 >YM?AV23cO_g9bDz@3jNk2
+R2
+I5;3CY;c@cN1TQ]=^lJ4T;0
+R3
+R0
+w1757418967
+8/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test/tb.v
+F/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test/tb.v
+!i122 3
+L0 4 101
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test|/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test/tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/sohan/Documents/Grindelwald/IHN_eyantra/t1a_fs_pwm/.test
+R8
